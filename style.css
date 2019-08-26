@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+    /* outline: 3px dotted #008000; */
+    background-color: lightslategray;
+}
+
+.header {
+    margin: 10px 0;
+    padding: 10px;
+    height: 40px;
+    /* outline: 2px dotted black; */
+    position: relative;
+    display: inline-block;
+    background-color: aliceblue;
+}
+
+.header h1 {
+    margin: 0px 0px 0 0px;
+    /* outline: 1px dotted orange; */
+    display: inline-block;
+}
+
+.header h2 {
+    /* outline: 1px dotted orange; */
+    display: inline-block;
+    margin-left: 458px;
+}
+
+.mainContent {
+    margin: 0px 0 0px 0;
+    padding: 10px;
+    min-height: 100px;
+    /* outline: 2px dotted red; */
+    /* vertical-align: top; */
+}
+
+.mainContentTop {
+    margin: 0px 0px 0 0px;
+    padding: 10px;
+    min-height: 100px;
+    min-width: 200px;
+    /* outline: 2px dotted blue; */
+    background-color: aliceblue;
+    /* position: relative; */
+    display: inline-block;
+}
+
+.mainContentTop img {
+    margin: 0px auto;
+    width: 500px;
+    /* outline: 2px solid orange; */
+}
+
+.mainContentTop .bio {
+    margin: 0 0 0 10px;
+    height: 329px;
+    width: 445px;
+    /* outline: 2px solid orange; */
+    display: inline-block;
+    background-color: aliceblue;
+    vertical-align: top;
+    /* background-position: right; */
+}
+
+.bio h3 {
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    background-color: gray;
+    color: aliceblue;
+}
+
+.bio p {
+    margin: 0px 0px 165px 0px;
+    padding: 10px;
+}
+
+.bio a {
+    padding: 10px;
+    /* outline: 2px dotted black; */
+}
+
+.mainContentBottom {
+    margin: 0px auto;
+    padding: 10px;
+    min-height: 150px;
+    /* outline: 2px dotted purple; */
+    position: relative;
+    color: aliceblue;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    /* margin: 10px 20px 10px 20px; */
+    min-height: 300px;
+    width: 300px;
+    /* outline: 2px solid black; */
+    background-color: darkgreen;
+    display: inline-block;
+    vertical-align: top;
+    /* padding: 10px;  */
+}
+
+.col-2 {
+    margin: 0 26px 0 26px;
+}
+
+.mainContentBottom h3 {
+    color: aliceblue;
+    padding: 10px;
+    background-color: gray;
+}
+
+.mainContentBottom p,
+.mainContentBottom h4 {
+    padding: 10px;
+}
+
+.mainContentBottom img {
+    padding: 10px;
+    width: 280px;
+}
+
+.mainContentBottom h4 {
+    background-color: gray;
+}
+
+.meritBadges {
+    padding: 10px;
+}
+
+.meritBadges img {
+    margin-right: 6px;
+    width: 41px;
+    /* outline: 2px dotted wheat; */
+}
+
+.mainContentBottom button {
+    margin: 0 0px 0px 120px;
+    padding: 10px 10px 10px 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin: 10px auto;
+    padding: 10px;
+    min-height: 80px;
+    /* outline: 2px dotted darkgray; */
+    background-color: aliceblue;
+}
+
+.footer p,
+.footer a {
+    margin-left: 410px;
+    padding: 10px;
+}
+
+.footer img {
+    width: 100px;
+    margin-left: 118px;
+}
